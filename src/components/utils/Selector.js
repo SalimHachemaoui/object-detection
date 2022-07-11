@@ -14,11 +14,11 @@ const Selector = () => {
                 <div className="section-div">
                     {selected === 'Image' ? (
                         <div className="selected-div" onClick={() => selectMode('Image')}>
-                                <div className="selected-text">Upload Image</div>
+                                <div className="selected-text">Télécharger l’image</div>
                         </div>
                     ) : (
                         <div className="deselected-div" onClick={() => selectMode('Image')}> 
-                                <div className="deselected-text">Upload Image</div>
+                                <div className="deselected-text">Télécharger l’image</div>
                         </div>
                     )}
                 </div>
@@ -26,11 +26,11 @@ const Selector = () => {
                 <div className="section-div">
                     {selected === 'Video' ? (
                             <div className="selected-div" onClick={() => selectMode('Video')}>
-                                <div className="selected-text">Upload Video</div>
+                                <div className="selected-text">Télécharger la Video</div>
                             </div>
                         ) : (
                             <div className="deselected-div"onClick={() => selectMode('Video')}> 
-                                <div className="deselected-text">Upload Video</div>
+                                <div className="deselected-text">Télécharger la Video</div>
                             </div>
                         )}
                 </div>
@@ -38,11 +38,11 @@ const Selector = () => {
                 <div className="section-div">
                     {selected === 'Realtime' ? (
                         <div className="selected-div" onClick={() => selectMode('Realtime')}>
-                                <div className="selected-text">Open Camera</div>
+                                <div className="selected-text">Ouvrir la caméra</div>
                         </div>
                     ) : (
                         <div className="deselected-div" onClick={() => selectMode('Realtime')}>
-                            <div className="deselected-text">Open Camera</div>
+                            <div className="deselected-text">Ouvrir la caméra</div>
                         </div>
                     )}
                 </div>

@@ -47,7 +47,7 @@ const App = () => {
           selectMode: selectMode
         }}>
           <div className="header-div">
-            This currently uses SSD + Mobilenetv2 pretrained coco model
+          WELCOME
           </div>
           <div>
             {model ? (
@@ -62,11 +62,11 @@ const App = () => {
                       <p style={{
                         color: '#6e00b8',
                         fontWeight: '500',
-                      }}>Loading Model. Please wait a few seconds...</p>
+                      }}>Modèle de chargement. Veuillez patienter quelques secondes...</p>
                     </div>
                   ) : (
                     <button className="css-btn" style={{ width: '60%' }} onClick={loadModel}>
-                      <p style={{ fontSize: '16px', fontWeight: '500' }}>Load Model</p>
+                      <p style={{ fontSize: '16px', fontWeight: '500' }}>Charger le modèle</p>
                     </button>
                   )}
               </div>
